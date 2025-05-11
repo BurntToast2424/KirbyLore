@@ -1,0 +1,29 @@
+body {margin:0%;}
+header {background-color:#EC5568;background-image:linear-gradient(to right, #EC5568, #F988BE);background-size:160px auto;background-repeat:no-repeat;background-position:right;height:60px;margin-top:-1.5em;position:sticky;top:0;}
+nav {background-color:#FBB5CF;font-weight:bold;font-size:1.2em;height:auto;text-align:center;margin-top:1.2em;}
+.lnav {border-top:2px solid #F988BE;margin-top:-0.8em;}
+nav ul {list-style-type:none;padding-left:0em;}
+nav a {text-decoration:none;}
+.lnav ul {list-style-type:none;padding-left:0em;}
+main {overflow:auto;font-family:Arial,sans-serif;margin-left:1em;margin-right:1em;margin-top:-1em;}
+h2 {font-family:Georgia;}
+h3 {font-family:Georgia;}
+footer {background-color:#FFFFFF;font-size:.70em;font-style:italic;text-align:center;margin-left:1em;margin-right:1em;padding-bottom:1em;position:sticky;bottom:0;border-top:2px solid #C3C3C3;}
+table {border:2px solid black;width:90%;text-align:center;}
+td {padding:5px;border:1px solid black;}
+th {padding:5px;border:1px solid black;background-color:#FE8598;}
+tr:nth-of-type(even) {background-color:#FFD5EF;}
+tr:nth-of-type(odd) {background-color:#FFFFFF;}
+main img {height:120px;width:auto;border:1px solid grey;background-color:#FFFFFF;}
+header img {height:60px;display:block;margin:auto;}
+form {padding-bottom:1em;}
+@media (min-width: 1024px) {
+    body {background-image:url(gnav_bg_all.jpg);background-size:100%;background-repeat:no-repeat;}
+    header {margin-top:auto;position:static;top:auto;}
+    nav {position:fixed;float:left;text-align:left;margin-top:auto;}
+    .lnav {border-top:none;padding-left:1.8em;}
+    nav ul {padding-left:1em;}
+    #wrapper {background-color:#FBB5CF;width:80%;min-width:960px;max-width:2048px;box-shadow:5px 5px 5px #828282;margin-left:auto;margin-right:auto;margin-top:40px;}
+    main {background-color:#FFFFFF;margin-left:160px;padding-left:2em;padding-right:2em;margin-right:0em;margin-right:auto;margin-top:auto;max-height:480px;}
+    footer {margin-left:160px;padding:1em;margin-right:0em;position:static;bottom:auto;}
+}
